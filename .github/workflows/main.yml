@@ -35,4 +35,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run Surge
-        run:  surge ./build/ covid-app252.surge.sh --token ${{secrets.SURGE1}}
+        run:  surge ./build/ khan-it-solution.surge.sh --token ${{secrets.SURGE1}}
